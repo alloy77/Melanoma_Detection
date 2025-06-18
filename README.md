@@ -22,7 +22,7 @@ The following pre-trained models were fine-tuned on the dataset:
 - ResNet50  
 - VGG16
 
-All models were trained for 100 epochs with:
+All models were trained for 20 epochs with:
 - Image size: 224×224  
 - Optimizer: Adam  
 - Loss Function: Binary Crossentropy  
@@ -61,16 +61,17 @@ Best training accuracy: **ResNet50 – 97.55%**
 ## How to Run
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/melanoma-detection-tl.git
-cd melanoma-detection-tl
+git clone https://github.com/alloy77/Melanoma_Detection.git
+cd Melanoma_Detection
 ```
 
 ### 2. Download the dependencies 
 ```bash
 pip install -r requirements.txt
 ```
+
 ### 3. Download the ISIC Dataset
-- Updata paths in notebooks if needed.
+Updata paths in notebooks if needed.
 
 ### 4. Run Preprocessing and Training
 ```bash
